@@ -32,6 +32,11 @@ python cli.py order pizza_name -–delivery
 python cli.py order pizza_name
 ```
 
+Для того, чтобы заказать пиццу ращмера XL необходимо дописать второй флаг:
+```
+python cli.py order pizza_name -–delivery --size=XL
+```
+
 ## Тестирование
 Для запуска тестирования, необходимо прописать следующую команду:
 ```
